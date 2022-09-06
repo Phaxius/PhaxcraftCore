@@ -43,7 +43,6 @@ dependencies {
 	implementation("org.spongepowered:configurate-jackson:${project.configurate_version}")
 	implementation("org.spongepowered:configurate-hocon:${project.configurate_version}")
 	implementation("org.spongepowered:configurate-gson:${project.configurate_version}")
-	implementation("org.spongepowered:configurate-extra-gson:${project.configurate_version}")
 	implementation("org.spongepowered:configurate-extra-kotlin:${project.configurate_version}")
 	implementation("org.spongepowered:configurate-extra-guice:${project.configurate_version}")
 	implementation("org.spongepowered:configurate-extra-dfu4:${project.configurate_version}")
@@ -51,7 +50,6 @@ dependencies {
 	implementation("org.spongepowered:configurate-extra-dfu2:${project.configurate_version}")
 	implementation("org.spongepowered:configurate-tool:${project.configurate_version}")
 	implementation("org.spongepowered:configurate-core:${project.configurate_version}")
-	implementation("org.spongepowered:configurate-bom:${project.configurate_version}")
 
 
 }
