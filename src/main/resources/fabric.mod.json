@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "phaxcraftcore",
+  "version": "${version}",
+
+  "name": "Phaxcraft Core",
+  "description": "Phaxcraft Core Library for common components used by Phaxcraft fabric mods",
+  "authors": [
+    "Phaxius"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Phaxius/PhaxcraftCore/wiki",
+    "sources": "https://github.com/Phaxius/PhaxcraftCore"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.phaxcraft.phaxcraftcore.PhaxcraftCore"
+    ]
+  },
+  "mixins": [
+    "phaxcraftcore.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "~1.18",
+    "java": ">=17"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}
